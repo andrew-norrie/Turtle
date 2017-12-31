@@ -4,13 +4,13 @@ For information on [L-Systems](https://en.wikipedia.org/wiki/L-system) see [Lind
 
 ### Key Classes, Structs and Protocols
 
-* Turtle - A class that holds a location, direction and a renderer object
+* [Turtle](Turtle.playground/Sources/Turtle.swift) - A class that holds a location, direction and a renderer object
 
-* TurtleAction - A struct that wraps a closure of the form `(_ : Turtle) -> Void`. Actions are simple instructions like move or turn and complex sequences of other actions.
+* [TurtleAction](Turtle.playground/Sources/TurtleAction.swift) - A struct that wraps a closure of the form `(_ : Turtle) -> Void`. Actions are simple instructions like move or turn and complex sequences of other actions.
 
-* TurtleRenderer - A protocol for renderers. There are two implementations. One is an extentsion to CGContext. The other is a bounding box finder.
+* [TurtleRenderer](Turtle.playground/Sources/TurtleRenderer.swift) - A protocol for renderers. There are two implementations. One is an [extentsion to CGContext](Turtle.playground/Sources/CGContext+TurtleRenderer.swift). The other is a [bounding box finder](Turtle.playground/Sources/BoundingBoxFinder.swift).
 
-* TurtleView - A NS/UIView that holds a TurtleAction object and draws it scaled to the views bounds.
+* TurtleView - A [NS](macOS/View.swift)/[UIView](Turtle.playground/Sources/TurtleView.swift) that holds a TurtleAction object and draws it scaled to the views bounds.
 
 ```swift
 let flowsnake : TurtleAction = {
