@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490C83CB1FF7855600C57D77 /* CGContext+TurtleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C83CA1FF7855600C57D77 /* CGContext+TurtleRenderer.swift */; };
+		490C83CD1FF7859A00C57D77 /* CGPoint+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C83CC1FF7859A00C57D77 /* CGPoint+Additions.swift */; };
+		490C83CF1FF83E2F00C57D77 /* TurtleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490C83CE1FF83E2F00C57D77 /* TurtleRenderer.swift */; };
+		491C34191FEB6D3B007CA1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34181FEB6D3B007CA1E3 /* AppDelegate.swift */; };
+		491C341B1FEB6D3B007CA1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C341A1FEB6D3B007CA1E3 /* ViewController.swift */; };
+		491C341D1FEB6D3B007CA1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491C341C1FEB6D3B007CA1E3 /* Assets.xcassets */; };
+		491C34201FEB6D3B007CA1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491C341E1FEB6D3B007CA1E3 /* Main.storyboard */; };
+		491C34271FEB6F27007CA1E3 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34261FEB6F26007CA1E3 /* View.swift */; };
+		491C34281FEB6FE7007CA1E3 /* CGAffineTransform+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34041FEB6821007CA1E3 /* CGAffineTransform+CGRect.swift */; };
+		491C34291FEB6FEE007CA1E3 /* Turtle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34021FEB6821007CA1E3 /* Turtle.swift */; };
+		491C342A1FEB6FEE007CA1E3 /* TurtleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34051FEB6821007CA1E3 /* TurtleAction.swift */; };
+		491C342B1FEB6FEE007CA1E3 /* Lindenmayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C33FF1FEB6821007CA1E3 /* Lindenmayer.swift */; };
+		491C342C1FEB6FEE007CA1E3 /* Lindenmayer+Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34011FEB6821007CA1E3 /* Lindenmayer+Samples.swift */; };
+		491C342D1FEB6FEE007CA1E3 /* BoundingBoxFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C34001FEB6821007CA1E3 /* BoundingBoxFinder.swift */; };
+		49BDE2DA1FEE322B006D7C98 /* TurtleAction+Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDE2D91FEE322B006D7C98 /* TurtleAction+Polygon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490C83C91FF770C700C57D77 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		490C83CA1FF7855600C57D77 /* CGContext+TurtleRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGContext+TurtleRenderer.swift"; sourceTree = "<group>"; };
+		490C83CC1FF7859A00C57D77 /* CGPoint+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Additions.swift"; sourceTree = "<group>"; };
+		490C83CE1FF83E2F00C57D77 /* TurtleRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleRenderer.swift; sourceTree = "<group>"; };
+		491C33FF1FEB6821007CA1E3 /* Lindenmayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lindenmayer.swift; sourceTree = "<group>"; };
+		491C34001FEB6821007CA1E3 /* BoundingBoxFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundingBoxFinder.swift; sourceTree = "<group>"; };
+		491C34011FEB6821007CA1E3 /* Lindenmayer+Samples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Lindenmayer+Samples.swift"; sourceTree = "<group>"; };
+		491C34021FEB6821007CA1E3 /* Turtle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turtle.swift; sourceTree = "<group>"; };
+		491C34031FEB6821007CA1E3 /* TurtleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurtleView.swift; sourceTree = "<group>"; };
+		491C34041FEB6821007CA1E3 /* CGAffineTransform+CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGAffineTransform+CGRect.swift"; sourceTree = "<group>"; };
+		491C34051FEB6821007CA1E3 /* TurtleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurtleAction.swift; sourceTree = "<group>"; };
+		491C34061FEB6821007CA1E3 /* CGColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+Additions.swift"; sourceTree = "<group>"; };
+		491C34111FEB6991007CA1E3 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Contents.swift; path = Turtle.playground/Contents.swift; sourceTree = "<group>"; };
+		491C34161FEB6D3B007CA1E3 /* Turtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491C34181FEB6D3B007CA1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491C341A1FEB6D3B007CA1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		491C341C1FEB6D3B007CA1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491C341F1FEB6D3B007CA1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491C34211FEB6D3B007CA1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491C34221FEB6D3B007CA1E3 /* Turtle_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Turtle_macOS.entitlements; sourceTree = "<group>"; };
+		491C34261FEB6F26007CA1E3 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		49BDE2D91FEE322B006D7C98 /* TurtleAction+Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TurtleAction+Polygon.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491C34131FEB6D3B007CA1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491C33FC1FEB67F4007CA1E3 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				491C34111FEB6991007CA1E3 /* Contents.swift */,
+				491C33FE1FEB6821007CA1E3 /* Sources */,
+				491C33FD1FEB6821007CA1E3 /* Resources */,
+			);
+			name = Playground;
+			sourceTree = "<group>";
+		};
+		491C33FD1FEB6821007CA1E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = Turtle.playground/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		491C33FE1FEB6821007CA1E3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				491C340F1FEB6844007CA1E3 /* Quartz Extensions */,
+				491C34101FEB68F7007CA1E3 /* iOS */,
+				491C34021FEB6821007CA1E3 /* Turtle.swift */,
+				490C83CE1FF83E2F00C57D77 /* TurtleRenderer.swift */,
+				491C34051FEB6821007CA1E3 /* TurtleAction.swift */,
+				49BDE2D91FEE322B006D7C98 /* TurtleAction+Polygon.swift */,
+				491C33FF1FEB6821007CA1E3 /* Lindenmayer.swift */,
+				491C34011FEB6821007CA1E3 /* Lindenmayer+Samples.swift */,
+				491C34001FEB6821007CA1E3 /* BoundingBoxFinder.swift */,
+			);
+			name = Sources;
+			path = Turtle.playground/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		491C340F1FEB6844007CA1E3 /* Quartz Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				491C34041FEB6821007CA1E3 /* CGAffineTransform+CGRect.swift */,
+				491C34061FEB6821007CA1E3 /* CGColor+Additions.swift */,
+				490C83CA1FF7855600C57D77 /* CGContext+TurtleRenderer.swift */,
+				490C83CC1FF7859A00C57D77 /* CGPoint+Additions.swift */,
+			);
+			name = "Quartz Extensions";
+			sourceTree = "<group>";
+		};
+		491C34101FEB68F7007CA1E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				491C34031FEB6821007CA1E3 /* TurtleView.swift */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		491C34171FEB6D3B007CA1E3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				491C34181FEB6D3B007CA1E3 /* AppDelegate.swift */,
+				491C341A1FEB6D3B007CA1E3 /* ViewController.swift */,
+				491C34261FEB6F26007CA1E3 /* View.swift */,
+				491C341C1FEB6D3B007CA1E3 /* Assets.xcassets */,
+				491C341E1FEB6D3B007CA1E3 /* Main.storyboard */,
+				491C34211FEB6D3B007CA1E3 /* Info.plist */,
+				491C34221FEB6D3B007CA1E3 /* Turtle_macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4964F3541FE30AA10065ACDF = {
+			isa = PBXGroup;
+			children = (
+				490C83C91FF770C700C57D77 /* README.md */,
+				491C33FC1FEB67F4007CA1E3 /* Playground */,
+				491C34171FEB6D3B007CA1E3 /* macOS */,
+				4964F3601FE319070065ACDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4964F3601FE319070065ACDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491C34161FEB6D3B007CA1E3 /* Turtle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491C34151FEB6D3B007CA1E3 /* Turtle macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491C34231FEB6D3B007CA1E3 /* Build configuration list for PBXNativeTarget "Turtle macOS" */;
+			buildPhases = (
+				491C34121FEB6D3B007CA1E3 /* Sources */,
+				491C34131FEB6D3B007CA1E3 /* Frameworks */,
+				491C34141FEB6D3B007CA1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turtle macOS";
+			productName = "Turtle macOS";
+			productReference = 491C34161FEB6D3B007CA1E3 /* Turtle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4964F3551FE30AA10065ACDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					491C34151FEB6D3B007CA1E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4964F3581FE30AA10065ACDF /* Build configuration list for PBXProject "Turtle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4964F3541FE30AA10065ACDF;
+			productRefGroup = 4964F3601FE319070065ACDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491C34151FEB6D3B007CA1E3 /* Turtle macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491C34141FEB6D3B007CA1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491C341D1FEB6D3B007CA1E3 /* Assets.xcassets in Resources */,
+				491C34201FEB6D3B007CA1E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491C34121FEB6D3B007CA1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BDE2DA1FEE322B006D7C98 /* TurtleAction+Polygon.swift in Sources */,
+				491C341B1FEB6D3B007CA1E3 /* ViewController.swift in Sources */,
+				491C342A1FEB6FEE007CA1E3 /* TurtleAction.swift in Sources */,
+				491C342B1FEB6FEE007CA1E3 /* Lindenmayer.swift in Sources */,
+				490C83CD1FF7859A00C57D77 /* CGPoint+Additions.swift in Sources */,
+				491C342D1FEB6FEE007CA1E3 /* BoundingBoxFinder.swift in Sources */,
+				491C34291FEB6FEE007CA1E3 /* Turtle.swift in Sources */,
+				491C342C1FEB6FEE007CA1E3 /* Lindenmayer+Samples.swift in Sources */,
+				490C83CB1FF7855600C57D77 /* CGContext+TurtleRenderer.swift in Sources */,
+				491C34191FEB6D3B007CA1E3 /* AppDelegate.swift in Sources */,
+				491C34271FEB6F27007CA1E3 /* View.swift in Sources */,
+				491C34281FEB6FE7007CA1E3 /* CGAffineTransform+CGRect.swift in Sources */,
+				490C83CF1FF83E2F00C57D77 /* TurtleRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		491C341E1FEB6D3B007CA1E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491C341F1FEB6D3B007CA1E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		491C34241FEB6D3B007CA1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/Turtle_macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.AndrewNorrie.Turtle-macOS";
+				PRODUCT_NAME = Turtle;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		491C34251FEB6D3B007CA1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/Turtle_macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.AndrewNorrie.Turtle-macOS";
+				PRODUCT_NAME = Turtle;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4964F3591FE30AA10065ACDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4964F35A1FE30AA10065ACDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491C34231FEB6D3B007CA1E3 /* Build configuration list for PBXNativeTarget "Turtle macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491C34241FEB6D3B007CA1E3 /* Debug */,
+				491C34251FEB6D3B007CA1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4964F3581FE30AA10065ACDF /* Build configuration list for PBXProject "Turtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4964F3591FE30AA10065ACDF /* Debug */,
+				4964F35A1FE30AA10065ACDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4964F3551FE30AA10065ACDF /* Project object */;
+}
